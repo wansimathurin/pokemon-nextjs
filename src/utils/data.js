@@ -1,4 +1,65 @@
-const Pokemons = [
+
+export const Types = [
+    
+    {
+        "name": "Electric",
+        "color": "#F8D030"
+    },
+    {
+        "name": "Fire",
+        "color": "#F08030"
+    },
+    {
+        "name": "Water",
+        "color": "#6890F0"
+    },
+    {
+        "name": "Grass",
+        "color": "#78C850"
+    },
+    {
+        "name": "Fairy",
+        "color": "#EE99AC"
+    },
+    {
+        "name": "Normal",
+        "color": "#A8A878"
+    },
+    {
+        "name": "Fighting",
+        "color": "#C03028"
+    },
+    {
+        "name": "Rock",
+        "color": "#B8A038"
+  },
+    {
+        "name": "Ground",
+        "color": "#B8A038"
+  },
+    {
+        "name": "Ghost",
+        "color": "#B8A038"
+  },
+  //   {
+  //       "name": "Electric/Steel",
+  //       "color": "#B8A038"
+  // },
+  
+  //   {
+  //       "name": "Rock/Ground",
+  //       "color": "#B8A038"
+  // },
+  
+  //   {
+  //       "name": "Rock/Water",
+  //       "color": "#B8A038"
+  // },
+  
+    
+
+]
+export const Pokemons = [
     {
       "id": 1,
       "name": "Pikachu",
